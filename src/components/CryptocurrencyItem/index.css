@@ -1,0 +1,47 @@
+.currency-data-card {
+  background-color: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.currency-logo-name-card {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.currency-logo {
+  height: 25px;
+  width: 25px;
+  border-radius: 12px;
+  margin-right: 10px;
+}
+.currency-name {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+}
+.currency-value-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+  width: 150px;
+}
+.currency-value {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  width: 100%;
+  text-align: right;
+}
+@media (min-width: 768px) {
+  .currency-logo-name-card {
+    margin-left: 30px;
+  }
+  .currency-value-card {
+    margin-right: 30px;
+    width: 200px;
+  }
+}
